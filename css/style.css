@@ -1,0 +1,31 @@
+.gamesContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game {
+  width: 270px;
+  padding: 20px;
+  background-color: burlywood;
+  margin: 10px;
+}
+
+h3 {
+  margin: 0px 0px 10px 0;
+}
+p {
+  margin: 0;
+}
+
+.loader {
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
