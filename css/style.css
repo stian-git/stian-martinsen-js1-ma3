@@ -6,8 +6,9 @@
 .game {
   width: 270px;
   padding: 20px;
-  background-color: burlywood;
+  background-color: wheat;
   margin: 10px;
+  border: 1px solid black;
 }
 
 h3 {
